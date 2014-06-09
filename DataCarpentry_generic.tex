@@ -1,5 +1,6 @@
 \documentclass[11pt]{article}
 \usepackage[margin=1in]{geometry}
+\usepackage[hyphens]{url}
 \usepackage{parskip}
 \setlength{\parindent}{0pt}
 
@@ -9,8 +10,13 @@
 \begin{document}
 
 
-\title{Data Carpentry workshops to increase data literacy for researchers}
+\title{Data Carpentry: Workshops to increase data management literacy for researchers}
+\author{Tracy~K.~Teal$^{(1)}$ \and Karen~A.~Cranston$^{(2)}$ \and Hilmar~Lapp$^{(2)}$ \and Ethan~White$^{(3)}$}
+\thanks{{}$^{(1)}$ Michigan State University, East Lansing, MI, USA}
+\thanks{{}$^{(2)}$ National Evolutionary Synthesis Center (NESCent), Durham, NC, USA}
+\thanks{{}$^{(3)}$ Utah State University, Logan, UT, USA}
 \date{}
+
 \maketitle
 
 \section{Overview }
@@ -30,9 +36,9 @@ had seen the success of the model for materials development and training. We dev
 Course topics
 \begin{itemize}
 \item How to use spreadsheets (Excel) more effectively and the limitations of spreadsheets
-\item Getting data out of Excel and in to more powerful tools - R or Python
-\item Introduction to databases, managing and querying data in SQL
-\item Workflows and automating repetitive tasks with an introduction to the shell
+\item Getting data out of Excel and into more powerful tools - R or Python
+\item Introduction to databases, including managing and querying data in SQL
+\item Workflows and automating repetitive tasks, with an introduction to the shell
 \end{itemize}
 
 Included discussions
@@ -48,27 +54,20 @@ workshop differs in its focus, its level of expected knowledge and its domain sp
 \item \emph{Data Carpentry is focused on data}. The workshop introduces one data set at the beginning of the
 workshop. Throughout the workshop, it is taught how to manage and analyze that data in an effective and reproducible 
 way.
-\item \emph{Data Carpentry is designed for novices.} There are no prerequisites and no 
+\item \emph{Data Carpentry is designed for novices.} There are no prerequisites, and no 
 prior knowledge about the tools is assumed.
 \item \emph{Data Carpentry is designed to be domain specific.} Researchers learn better when the example used is
-one that they are familiar with. The information is more easily integrated in to an existing framework and learners 
-are more motivated by examples like their own work.
-\end{itemize}
-
-\section{Support for the first NSF BIO Data Carpentry workshop}
-This workshop could not have been developed or taught without the support of several organizations for personnel to develop the workshop, materials and travel funds.
-\begin{itemize}
-\item{DataONE}
-\item{NSF BEACON supplemental grant}
-\item{NSF Career Award for Dr. Ethan White}
-\item{iDigBio for travel and work of iDigBio representatives}
-\item{Software Carpentry and the Mozilla Science Labs for guidance on materials development and administrative support}
+of a kind they are familiar with. The information is more easily integrated into an existing framework, and learners 
+are more motivated by example data similar to data encountered in their own work.
 \end{itemize}
 
 \section{Overview and interest in the first Data Carpentry workshop}
 
-The first Data Carpentry workshop was taught at NESCent May 18-19th with instructors who developed and taught the material from NESCent (Dr. Hilmar Lapp and Dr. Karen Cranston), BEACON (Dr. Tracy Teal) and Utah State Univ. (Dr. Ethan White) and assistants from SESYNC (Dr. Mike Smorul), iDigBio (Dr. Deborah Paul and Matt Collins) and iPlant (Darren Boss).
-\\http://nescent.github.io/2014-05-08-datacarpentry/
+The first Data Carpentry workshop was taught at NESCent May 8-9, 2014\footnote{Course website at \url{http://nescent.github.io/2014-05-08-datacarpentry/}},
+with instructors who developed and taught the material from NESCent
+(HL and KAC), BEACON (TKT) and Utah State University (EW), and
+assistants from SESYNC (Dr. Mike Smorul), iDigBio (Dr. Deborah Paul
+and Matt Collins) and iPlant (Darren Boss).
 
 There were 30 spots available for the course, and it was full within 3 hours of it being announced. 64 people signed up on the wait list, and anecdotal evidence suggests that many people who were interested didn't even sign up for the wait list. This immediate interest highlighted the need for this type of course.
 
@@ -82,14 +81,13 @@ In the introductory section where learners discussed why they were taking the co
 \item I work with faculty at undergrad institutions and want to teach data practices, but I need to learn it myself first.
 \item I'm interested in going in to industry and companies are asking for data analysis experience.
 \item I'm re-entering data over and over again by hand and know there's a better way.
-\item I have overwhelming amounts of NGS data.
+\item I have overwhelming amounts of next-generation sequencing data.
 \end{itemize}
 
 This first course taught the topics discussed above, and we learned that there is a need for refinement and a 
-re-ordering of topics. Overall the workshop was well received however with positive comments to instructors and on social media. Post-assessment ratings gave the course an average rating of 8.25 out of 10.
+re-ordering of topics.  However, overall the workshop was well received, with positive comments to instructors and on social media. Post-assessment ratings gave the course an average rating of 8.25 out of 10.
 
-A write-up of that workshop is available on the Software Carpentry blog
-\\http://software-carpentry.org/blog/2014/05/our-first-data-carpentry-workshop.html
+A write-up of that workshop is available on the Software Carpentry blog\footnote{\url{\http://software-carpentry.org/blog/2014/05/our-first-data-carpentry-workshop.html}}.
 
 Interest beyond direct workshop participants has come from email to instructors, over Twitter and in response to blog posts from researchers in biology, genomics, digital humanities, library sciences and social sciences.
 This response has 
@@ -110,7 +108,7 @@ these goals.
 \subsection{Initial next steps}
 
 The initial next steps for Data Carpentry are to run more workshops at the NSF BIO Centers. This will help to 
-iterate through the materials, so they can be refined and the course adjusted to better meet learner needs. Many of the same instructors for the NESCent workshop are continuing to work to refine and develop materials and workflow.
+iterate through the materials, so they can be refined and the course adjusted to better meet learners' needs. Many of the same instructors for the NESCent workshop are continuing to work to refine and develop materials and workflow.
 
 A workshop is scheduled at BEACON for July 24-25 and another is tentatively scheduled for July 17-18. Karen Cranston, Hilmar Lapp, Ethan White, Tracy Teal and Deborah Paul continue to be involved in the course development. Teal from BEACON will be an instructor at both workshops and is training existing Software Carpentry instructors at BEACON on teaching the Data Carpentry materials. Many of those Software Carpentry instructors were trained at a recent train-the-trainer workshop also supported by the BEACON supplemental funding. 
 
@@ -140,10 +138,10 @@ How these needs can be met.
 
 Already in place:
 \begin{itemize}
-\item github for the development and distribution of materials
-\item online SWC tutorials on many topics
-\item first set of materials developed by SWC and adapted for NESCent workshop by personnel supported by NSF funding
-\item some support from SWC and the Mozilla Science Labs for the logistical organization of workshops
+\item Github repositories for the development and distribution of materials
+\item online Software Carpentry tutorials on many topics
+\item First set of materials adapted from Software Carpentry for the Data Carpentry workshop at NESCent
+\item Some support from Software Carpentry and the Mozilla Science Labs for the logistical organization of workshops
 \end{itemize}
 
 To be established:
@@ -164,5 +162,10 @@ how the workshop should be taught. This differs somewhat from Software Carpentry
 the topics are perceived to be a bit more technical and local personel have less 
 confidence in their ability to teach the materials.
 
+\section{Acknowledgements}
 
-\end{document}
+This workshop could not have been developed or taught without the support of several organizations, including for personnel time, materials, and travel funds. Specifically, DataONE (NSF #083094) supported the work of HL and KC on this workshop; NSF (NSF Career#) supported EW; BEACON (NSF#) supported TKT; and BEACON and iDigBio (NSF#) provided travel support to TKT and iDigBio personnel to serve as instructor and assistants, respectively, at the workshop.
+
+We are also grateful to Software Carpentry and the Mozilla Science Lab for guidance on materials development and administrative support.
+
+\end{document}.
